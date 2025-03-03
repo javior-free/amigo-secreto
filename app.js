@@ -10,7 +10,8 @@ function agregarAmigo(){
     }
     amigo.push(nombreAmigo);
     inputAmigo.value = "";
-    inputAmigo.focus();
+    inputAmigo.focus()
+    renderizarAmigo();
 }
 
 function renderizarAmigo(){
